@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom Blade Zero</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/output.css">
+    <style>
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(35px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Small Mobile */
+        @media (max-width: 480px) {
+
+            .character-card {
+                width: 95%;
+                height: 350px;
+            }
+
+            .custom-footer {
+                height: 350px;
+            }
+
+            .social-icons a {
+                font-size: 24px;
+            }
+        }
+
+        /* Small Mobile */
+
+        /* Mobile */
+        @media (max-width: 767px) {
+
+            .cards-section {
+                flex-direction: column;
+                height: auto;
+                padding: 50px 20px;
+                gap: 35px;
+            }
+
+            .character-card {
+                width: 85%;
+                max-width: 400px;
+                height: 420px;
+                top: 0;
+                margin: 0 auto;
+            }
+
+            .custom-footer {
+                height: 400px;
+            }
+
+            .social-icons {
+                gap: 20px;
+            }
+
+            .social-icons a {
+                font-size: 28px;
+            }
+        }
+
+        /* Mobile */
+
+        /* Tablet */
+        @media (max-width: 1024px) {
+
+            .cards-section {
+                height: auto;
+                min-height: 100vh;
+                padding: 80px 20px;
+                gap: 20px;
+            }
+
+            .character-card {
+                width: 32%;
+                height: 400px;
+            }
+
+            .custom-footer {
+                height: 550px;
+            }
+        }
+        /* Tablet */
+    </style>
+</head>
+
+<body>
+    <div class="card-section w-full h-193.75 
+bg-[linear-gradient(125deg,#09090f_0%,#17132e_30%,#30204d_58%,#100e22_80%,#05050b_100%)]
+ flex justify-center items-center gap-3">
+        <figure
+            class="character-card w-[30%] h-125 border-2 border-amber-500 rounded-[30px] relative mx-auto top-10 group overflow-hidden hover:top-5 duration-400">
+            <img class="absolute w-full h-full object-cover object-[0_0%]" src="images/8470697_0.jpg" alt="">
+            <div class="absolute w-full h-full bg-black/50 group-hover:opacity-0 duration-400"></div>
+            <div class="absolute w-full h-15 bg-black/40 left-0 -bottom-15 group-hover:bottom-0 duration-400"></div>
+            <figcaption
+                class="absolute text-[35px] font-bold uppercase text-amber-200/90 w-full h-15 text-center left-0 -bottom-15 group-hover:bottom-0 duration-400">
+                blade</figcaption>
+        </figure>
+
+        <figure
+            class="character-card w-[30%] h-125 rounded-[30px] border-2 border-red-700 relative mx-auto group overflow-hidden -top-10 hover:-top-5 duration-400">
+            <img class="absolute w-full h-full object-cover object-[0_30%]" src="images/6752826_0.jpg" alt="Soul">
+            <div class="absolute w-full h-full bg-black/50 group-hover:opacity-0 duration-400"></div>
+            <div class="absolute w-full h-15 bg-black/40 left-0 -bottom-15 group-hover:bottom-0 duration-400"></div>
+            <figcaption
+                class="absolute text-white text-[35px] w-full h-15 text-center left-0 -bottom-15 group-hover:bottom-0 duration-400 uppercase font-bold">
+                Phantom
+            </figcaption>
+        </figure>
+
+        <figure
+            class="character-card w-[30%] h-125 border-2 border-black rounded-[30px] relative mx-auto top-10 group overflow-hidden hover:top-5 duration-400">
+            <img class="absolute w-full h-full object-cover object-[0_10%]" src="images/9217142_0.jpg" alt="">
+            <div class="absolute w-full h-full bg-black/50 group-hover:opacity-0 duration-400"></div>
+            <div class="absolute w-full h-15 bg-black/40 left-0 -bottom-15 group-hover:bottom-0 duration-400"></div>
+            <figcaption
+                class="absolute text-fuchsia-100 font-bold text-[35px] w-full h-15 left-0 -bottom-15 text-center group-hover:bottom-0 duration-400 uppercase">
+                zero</figcaption>
+        </figure>
+    </div>
+
+
+    <footer class="custom-footer relative w-full h-193.75 overflow-hidden bg-black">
+
+        <!-- Background Image -->
+        <img src="images/Mani Phantom.png" alt="" class="absolute inset-0 w-full h-full object-cover object-center">
+
+        <!-- Gradient Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent"></div>
+
+        <!-- Social Icons -->
+        <div class="social-icons absolute inset-0 flex items-center justify-start px-10 md:px-24">
+
+            <div class="flex items-center gap-8">
+
+                <!-- GitHub -->
+                <a href="https://github.com/manibagherinezhad-ops" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub" class="text-white text-4xl opacity-0 animate-[fadeUp_0.7s_ease-out_0.2s_forwards]
+                      transition-all duration-300 ease-out
+                      hover:text-orange-500 hover:-translate-y-3 hover:scale-125
+                      hover:drop-shadow-[0_0_15px_#f97316]">
+
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/mani-bagherinezhad-641217350/" target="_blank"
+                    rel="noopener noreferrer" aria-label="LinkedIn" class="text-white text-4xl opacity-0 animate-[fadeUp_0.7s_ease-out_0.4s_forwards]
+                      transition-all duration-300 ease-out
+                      hover:text-orange-500 hover:-translate-y-3 hover:scale-125
+                      hover:drop-shadow-[0_0_15px_#f97316]">
+
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/manibagherinezhad_dev/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram" class="text-white text-4xl opacity-0 animate-[fadeUp_0.7s_ease-out_0.6s_forwards]
+                      transition-all duration-300 ease-out
+                      hover:text-orange-500 hover:-translate-y-3 hover:scale-125
+                      hover:drop-shadow-[0_0_15px_#f97316]">
+
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
