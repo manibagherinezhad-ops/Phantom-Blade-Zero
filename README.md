@@ -22,9 +22,7 @@ The main focus is on creating a visually engaging interface using **HTML and Tai
 
 ## 🌐 Live Demo
 
-⚔️ **[View the Live Website](YOUR_LIVE_DEMO_URL_HERE)**
-
-*Replace `YOUR_LIVE_DEMO_URL_HERE` with your deployed website URL.*
+⚔️ **[View the Live Website](https://manibagherinezhad-ops.github.io/Phantom-Blade-Zero/)**
 
 ---
 
