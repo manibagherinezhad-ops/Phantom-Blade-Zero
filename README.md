@@ -10,7 +10,7 @@
 
 The project features three character-inspired image cards arranged in a visually balanced layout.
 
- card responds to hovering by removing its dark overlay and revealing the character's name through a smooth sliding animation.
+Each card responds to hovering by removing its dark overlay and revealing the character's name through a smooth sliding animation.
 
 The page also includes a cinematic footer with a custom background image and animated social media icons.
 
